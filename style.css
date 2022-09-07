@@ -1,6 +1,6 @@
     /* Degradado del body */
     .DegradadoBody {
-        background: linear-gradient(-240deg, #ee7752, #e73c7e, #23a6d5, #e1e6e5);
+        background: linear-gradient(-240deg, #ee7752, #e73c7e 60%);
         background-size: 400% 400%;
         height: 105vh;
         width: auto;
@@ -156,27 +156,27 @@
         margin-top: 2%;
     }
 
-    /*.linea {
+    .linea {
         border-left: solid #F2F2F2;
         height:100%;
         left: 50%;
         position: absolute;
-    }*/
+    }
     #Resumen {
         text-align: center;
     }
-
-    .CuadradosResumen {
-        width: 363px;
-        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-        margin: auto;
-    }
-
 
     .CuadradosResumen:hover{
         transition: transform .4s; 
         transform: scale(1.2); 
     }
+
+    .CajaExperienciaLaboralYFormacion{
+        width: auto;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        margin: auto;
+    }
+
 
     #FechaBasauri {
         color: #F2F2F2;
@@ -197,13 +197,12 @@
     /* FOOTER */
     .div4 { 
         grid-area: 5 / 1 / 6 / 6;
-        margin-top: 20%;
+        margin-top: auto;
     }
 
     #Footer1 {
         text-align: center;
         color: #FFFFFF;
-        margin-top: 350px;
     }
 
     
