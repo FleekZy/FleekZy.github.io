@@ -160,7 +160,7 @@
 
     /*RESUMEN PONER FORMACIÓN Y LA EXPERIENCIA LABORAL*/
     .div3 { grid-area: 3 / 1 / 5 / 6;
-        margin-top: 2%;
+
     }
 
     .linea {
@@ -200,6 +200,60 @@
         color: #F2F2F2;
         text-align: center;
     }
+
+    /*PROYECTOS*/
+    #Proyectos {
+        margin-top: -10%;
+        margin-left: 20%;
+    }
+
+    #Proyecto1 {
+        display:inline;
+        float: left;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        width: 23vmax;
+        margin: 20px;
+        text-align: center;
+    }
+#Proyecto2 {
+        display: inline;
+        position: relative;
+        float: left;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        width: 23vmax;
+        margin:  20px;
+        text-align: center;
+    }
+    #Proyecto3 {
+        display: inline;
+        position: relative;
+        float: left;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        width: 23vmax;
+        margin:  20px;
+        text-align: center;
+    }
+    #Proyecto4 {
+        display: inline;
+        position: relative;
+        float: left;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        width: 23vmax;
+        margin:  20px;
+        text-align: center;
+    }
+
+    #RedesSociales {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    #RedesSociales1 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    
 
     /* FOOTER */
     .div4 { 
