@@ -188,7 +188,7 @@
     /* SOBRE MI */
     .div2 { 
         grid-area: 2 / 1 / 1 / 6;
-        margin-top: 460px;
+        margin-top: 360px;
         z-index: 1;
     }
 
@@ -208,7 +208,7 @@
     .Instagram {
         color: white;
         text-decoration: none;
-padding: 1% 1% 1% 47%;
+        padding: 1% 1% 1% 47%;
     }
 
     .ImgRedes{
@@ -399,7 +399,7 @@ padding: 1% 1% 1% 47%;
         padding-left: 10%;
       }
 
-    /* CV */
+    /* MAILTO */
     #Detalles {
         text-align: center;
         color: #FFFFFF;
@@ -409,11 +409,11 @@ padding: 1% 1% 1% 47%;
 
     }
 
-    .CV:hover {
+    .MAILTO:hover {
         filter: blur(0.75px);
         color:#2E2E2E;
         }
-    .CV {
+    .MAILTO {
             color: #FFFFFF;
         }
     
@@ -442,48 +442,6 @@ padding: 1% 1% 1% 47%;
         text-align: center;
     }
 
-    /*PROYECTOS*/
-    #Proyectos {
-        margin-top: -10%;
-        margin-left: 20%;
-    }
-
-    #Proyecto1 {
-        display:inline;
-        float: left;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-        width: 23vmax;
-        margin: 20px;
-        text-align: center;
-    }
-    #Proyecto2 {
-        display: inline;
-        position: relative;
-        float: left;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-        width: 23vmax;
-        margin:  20px;
-        text-align: center;
-    }
-    #Proyecto3 {
-        display: inline;
-        position: relative;
-        float: left;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-        width: 23vmax;
-        margin:  20px;
-        text-align: center;
-    }
-    #Proyecto4 {
-        display: inline;
-        position: relative;
-        float: left;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-        width: 23vmax;
-        margin:  20px;
-        text-align: center;
-    }
-
     #RedesSociales {
         text-align: center;
         margin-bottom: 5%;
@@ -495,65 +453,8 @@ padding: 1% 1% 1% 47%;
     }
 
 
-    @keyframes FleekZyCODE {
-        0% {
-          transform: translateX(-50%) translateY(-50%) rotate(0deg);
-        }
-        100% {
-          transform: translateX(-50%) translateY(-50%) rotate(360deg);
-        }
-      }
-      
-      
-      .FleekZyCODE {
-        color: #fffbf1;
-        text-shadow: 0 4px 25px #1b1a1a, 0 4px 45px #1b1a1a;
-        font-size: 58px;
-        font-weight: bold;
-        text-decoration: none;
-        letter-spacing: -3px;
-        margin: 0;
-        position: absolute;
-        top: 42%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        padding-bottom: 5em;
-      }
-      
-      .FleekZyCODE:before,.FleekZyCODE:after {
-        content: '';
-        padding: .7em .4em;
-        position: absolute;
-        left: 50%;
-        width: 0;
-        height: 0;
-        top: 11.25%;
-        display: block;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        border-radius: 10%;
-        border-right: 15px solid white;
-        border-top: 5px solid white;
-        border-left: 15px solid white;
-        border-bottom: 5px solid white;
-        transform: translateX(-50%) translateY(-50%) rotate(0deg);
-        animation: 0.001s infinite alternate ease-in-out FleekZyCODE;
-      }
-      
-      .FleekZyCODE:before {
-        border-color: #ffffff #ffffff #ffffff rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
-        z-index: -1;
-      }
-      
-      .FleekZyCODE:after {
-        border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #ffffff;
-      }
-
-
-
-/* Logo */
+/* FleekZy */
   
-  /*Neon*/
   .logo {
     display: flex;
     justify-content: center;
