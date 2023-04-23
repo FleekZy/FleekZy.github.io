@@ -375,30 +375,22 @@
       /* SKILLS */
 
       .Skills {
-    text-align: center;
+          text-align: center;
+          padding-left: 10%;
       }
 
-      .html5Img {
+      .Img {
         text-decoration: none;
         color: white;
         font-size: 3em;
         padding-bottom: 5%;
         margin-right: 10%;
+        transition: transform .2s;
       }
 
-      .css3Img {
-        text-decoration: none;
-        color: white;
-        font-size: 3em;
+      .Img:hover{
+        transform: scale(1.2);
       }
-
-      .phpImg {
-        text-decoration: none;
-        color: white;
-        font-size: 3em;
-        padding-left: 10%;
-      }
-
     /* MAILTO */
     #Detalles {
         text-align: center;
