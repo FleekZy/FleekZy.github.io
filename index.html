@@ -1,146 +1,170 @@
 <!DOCTYPE html>
 <html lang="es">
-<head> 
-<script src="https://kit.fontawesome.com/61e1fa152a.js" crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="inicio/style.css">
-    <link rel="stylesheet" href="inicio/iconos.css">
-    <link rel="shortcut icon" href="inicio/imagenes/Logo.ico">
-    <script src="inicio/AnimacionLogo.js"></script>
-    <title>FleekZy | Web</title>
+
+<head>
+  <script src="https://kit.fontawesome.com/61e1fa152a.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1f1d2e"/>
+  <link rel="stylesheet" href="inicio/style.css">
+  <link rel="stylesheet" href="inicio/iconos.css">
+  <link rel="shortcut icon" href="inicio/imagenes/Logo1.ico">
+  <script src="inicio/js/Fecha.js"></script>
+  <script src="inicio/js/AnimacionScroll.js"></script>
+  <script src="inicio/js/MenuClick.js"></script>
+  <title>FleekZy | Web</title>
 </head>
-<body>
-    <div class="contenedor">
-        <div class="div1" id="Nav">
-            <nav id="menu">
-            <input type='checkbox' id='responsive-menu'><label></label>
-              <ul class="navbar-center">
-                  <li><a  class="LineaNav" href='#Nav'><h5>INICIO</h5></a></li>
-                  <li><a  class="LineaNav" href='#Resumen'><h5>RESUMEN</h5></a></li>
-              </ul>
-            </nav>
-              <div class="logo">
-                <span data-letter="F">F</span>
-                <span data-letter="l">l</span>
-                <span data-letter="e">e</span>
-                <span data-letter="e">e</span>
-                <span data-letter="k">k</span>
-                <span data-letter="Z">Z</span>
-                <span data-letter="y">y</span>
-              </div>
-        </div>
 
-        <div class="div2" >
-            <section class="SobreMi">
-            <h1><p><span><strong>ME LLAMO JONATHAN Y SOY ADMNISTRADOR DE SISTEMAS</strong></span></p></h1>
-            </section>
-            <br>
-            <section id="SobreMi2">
-                <h4><i>Esta web esta creada solamente para mostrar mi trayecto</i></h4>
-            </section>
-            <section>
-              <a class="Instagram" href="https://www.instagram.com/joooniii98">
-                <i class="fab fa-instagram ImgRedes"></i>
-              </a>
-              <a class="Twitter" href="https://twitter.com/HastonPeque">
-                <i class="fab fa-twitter ImgRedes"></i>
-              </a>
-            </section>
-
+<body onload="mostrarFechaHora()">
+  <div class="contenedor">
+    <div class="div1">
+      <nav class="nav-bar" id="Nav1">
+        <div class="container">
+          <input type="checkbox" id="drop-down-cbox" />
+          <label for="drop-down-cbox">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <a href="#">
+            <h1 class="site-logo">FleekZy</h1>
+          </a>
+          <ul class="main-nav" >
+            <li><a href="#" onclick="cerrarMenu()">INICIO</a></li>
+            <li><a href="#Seccion1" onclick="cerrarMenu()">SOBRE MÍ</a></li>
+            <li><a href="#Seccion2" onclick="cerrarMenu()">RESUMEN</a></li>
+            <li><a href="#Seccion3" onclick="cerrarMenu()">DETALLES</a></li>
+          </ul>
         </div>
-        <div class="div3" id="Resumen">
-              <h1 id="Exp1" ><strong>EXPERIENCIA LABORAL</strong></h1>
-                <div class="linea">
-                    <div class="caja izquierda">
-                      <div class="contenido">
-                        <h2>24/09/2021 - 23/12/2021</h2>
-                        <p>Asistente de Sistemas Informáticos | SERINFOR</p>
-                        <p>Gestión de redes, Mantenimiento y Administración de Sistemas informáticos</p>
-                      </div>
-                    </div>
-                    <div class="caja derecha">
-                      <div class="contenido">
-                        <h2>14/09/2018 - 18/12/2018</h2>
-                        <p>Asistente de Sistemas Informáticos | PC BASAURI</p>
-                        <p>Mantenimiento y Administración de Sistemas informáticos y Atención al cliente</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="linea">
-                    <div class="caja izquierda">
-                      <div class="contenido">
-                        <h2>16/04/2018 - 30/05/2018</h2>
-                        <p>Asistente de Sistemas Informáticos | PC BASAURI</p>
-                        <p>Mantenimiento y Administración de Sistemas informáticos y Atención al cliente</p>
-                      </div>
-                    </div>
-                    <div class="caja derecha">
-                      <div class="contenido">
-                        <h2>06/03/2018 - 13/04/2018</h2>
-                        <p>Asistente de Sistemas Informáticos Apple | +REPAIR</p>
-                        <p>Mantenimiento y Administración de Sistemas informáticos y Atención al cliente</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="linea">
-                    <div class="caja izquierda">
-                      <div class="contenido">
-                        <h2>14/03/2016 - 14/06/2016</h2>
-                        <p>Asistente en Ebanisteria | Ebanisteria Frontón</p>
-                        <p>Mecanizado de piezas, montaje de maderas y montaje de parquets</p>
-                      </div>
-                    </div>
-                  </div> 
-                   <div id="Formacion">
-                    <h1 id="Form1"><strong>FORMACIÓN</strong></h1>
-                    <div class="linea">
-                        <div class="caja izquierda">
-                          <div class="contenido">
-                            <h2>08/09/2019 - 21/12/2021</h2>
-                            <p>Grado Superior de Administración de Sistemas Informáticos en Red</p>
-                            <p>CIFP Txurdinaga BILBAO</p>
-                          </div>
-                        </div>
-                        <div class="caja derecha">
-                          <div class="contenido">
-                            <h2>08/09/2016 - 18/12/2018</h2>
-                            <p>Grado Medio de Sistemas Micro-Informáticos y redes</p>
-                            <p>CIFP Txurdinaga BILBAO</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="linea">
-                      <div class="caja izquierda">
-                        <div class="contenido">
-                          <h2>08/09/2014 - 18/06/2016</h2>
-                          <p>Formación Profesional Básica de Carpintería</p>
-                          <p>Zaraobe IES AMURRIO</p>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-            <h1 id="Exp1"><strong>SKILLS</strong></h1>
-                <div class="Skills">
-                  <a href="https://es.wikipedia.org/wiki/HTML5"><i class="fab fa-html5 Img"></i></a>
-                  <a href="https://es.wikipedia.org/wiki/CSS"><i class="fab fa-css3-alt  Img"></i></a>
-                  <a href="https://es.wikipedia.org/wiki/PHP"><i class="fab fa-php Img"></i></a>
-                  <a href="https://es.wikipedia.org/wiki/MySQL"><i class="fas fa-database Img"></i></a>
-                </div>
-                <div id="Detalles">
-                    <h3>PARA MAS DETALLES CONSULTA MI CURRICULUM</h3>
-                      <a class="MAILTO" href="mailto:jonathan.gaallego@gmail.com?Subject=Interesado%20en%20el%20CV">CONTACTAR POR CORREO</a>
-                </div>
+      </nav>
+    </div>
+    <div class="div2">
+      <section class="Portada" class="">
+        <h2 class="logo">
+          <p><span><strong>HOLA, SOY JONATHAN</strong></span></p>
+        </h2>
+      </section>
+      <br>
+      <section id="Portada2">
+        <h3>ADMINISTRADOR DE SISTEMAS INFORMATICOS</h3>
+      </section>
+      <section class="RedesSociales">
+        <a class="Instagram" href="https://www.instagram.com/joooniii98" title="Instagram">
+          <i class="fab fa-instagram ImgRedes" alt="INSTAGRAM"></i>
+        </a>
+        <a class="Twitter" href="https://twitter.com/HastonPeque" title="Twitter">
+          <i class="fab fa-twitter ImgRedes" alt="TWITTER"></i>
+        </a>
+      </section>
+    </div>
+    <div class="div3" >
+      <br>
+      <section class="SeccionSobreMi" id="Seccion1">
+        <h1 class="SobreMi"><strong>SOBRE MÍ</strong></h1>
+        <div>
+          <div class="contenido-SobreMi">
+            <!--<h2 class="NombreSobreMi">JONATHAN GALLEGO</h2>-->
+            <p class="TextoSobreMi">Soy un Administrador de Sistemas altamente capacitado con experiencia en la gestión de redes, mantenimiento y administración de sistemas informáticos. He trabajado con equipos de desarrollo utilizando el método Scrum, lo que me ha permitido ser un excelente colaborador en equipo, destacando por mi capacidad para solucionar problemas y mi atención al detalle.</p>
+            <p class="TextoSobreMi"> Me apasiona mantenerme actualizado en las últimas tendencias y tecnologías, lo que me permite implementar soluciones eficientes y efectivas para cualquier desafío en el que me encuentre trabajando.</p>
+            <p class="TextoSobreMi">Si estás buscando a alguien que pueda ofrecer soluciones innovadoras y de calidad, no dudes en contactar conmigo.</p>
+            <img class="AvatarSobreMi" src="inicio/imagenes/descargar.gif" alt="avatar" title="Avatar">
+          </div>
+        </div>
+      </section>
+      <section class="SeccionExperienciaLaboral" id="Seccion2">
+        <h1 id="Exp1"><strong>EXPERIENCIA LABORAL</strong></h1>
+        <div class="linea">
+          <div class="caja izquierda" id="caja">
+            <div class="contenido">
+              <h2 class="Fecha">24/09/2021 - 23/12/2021</h2>
+              <p>Asistente de Sistemas Informáticos | SERINFOR</p>
+              <p>Gestión de redes, Mantenimiento y Administración de Sistemas informáticos</p>
             </div>
-        <div class="div4">
-                <footer id="Footer1">
-                    <section  id="Footer2">
-                        <h7>© 2022 Jonathan Gallego. Todos los derechos reservados.</h7>
-                    </section>
-                </footer>
+          </div>
+          <div class="caja derecha" id="caja2">
+            <div class="contenido">
+              <h2 class="Fecha">14/09/2018 - 18/12/2018</h2>
+              <p>Asistente de Sistemas Informáticos | PC BASAURI</p>
+              <p>Mantenimiento y Administración de Sistemas informáticos y Atención al cliente</p>
+            </div>
+          </div>
         </div>
-    </div> 
+        <div class="linea">
+          <div class="caja izquierda "id="caja3">
+            <div class="contenido">
+              <h2 class="Fecha">16/04/2018 - 30/05/2018</h2>
+              <p>Asistente de Sistemas Informáticos | PC BASAURI</p>
+              <p>Mantenimiento y Administración de Sistemas informáticos y Atención al cliente</p>
+            </div>
+          </div>
+        </div>
+        <div class="linea">
+          <div class="caja derecha " id="caja4">
+            <div class="contenido">
+              <h2 class="Fecha">06/03/2018 - 13/04/2018</h2>
+              <p>Asistente de Sistemas Informáticos Apple | +REPAIR</p>
+              <p>Mantenimiento y Administración de Sistemas informáticos y Atención al cliente</p>
+            </div>
+          </div>
+        </div>
+        <div class="linea">
+          <div class="caja izquierda" id="caja5">
+            <div class="contenido">
+              <h2 class="Fecha">14/03/2016 - 14/06/2016</h2>
+              <p>Asistente en Ebanisteria | Ebanisteria Frontón</p>
+              <p>Mecanizado de piezas, montaje de maderas y montaje de parquets</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="SeccionFormacion">
+        <h1 id="Form1"><strong>FORMACIÓN</strong></h1>
+        <div class="linea">
+          <div class="caja izquierda" id="caja6">
+            <div class="contenido">
+              <h2 class="Fecha">08/09/2019 - 21/12/2021</h2>
+              <p>Grado Superior de Administración de Sistemas Informáticos en Red</p>
+              <p>CIFP Txurdinaga BILBAO</p>
+            </div>
+          </div>
+        </div>
+        <div class="linea">
+          <div class="caja derecha" id="caja7">
+            <div class="contenido">
+              <h2 class="Fecha">08/09/2016 - 18/12/2018</h2>
+              <p>Grado Medio de Sistemas Micro-Informáticos y redes</p>
+              <p>CIFP Txurdinaga BILBAO</p>
+            </div>
+          </div>
+        </div>
+        <div class="linea">
+          <div class="caja izquierda" id="caja8">
+            <div class="contenido">
+              <h2 class="Fecha">08/09/2014 - 18/06/2016</h2>
+              <p>Formación Profesional Básica de Carpintería</p>
+              <p>Zaraobe IES AMURRIO</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="SeccionDetalles">
+        <div id="Seccion3">
+          <h3>PARA MAS DETALLES CONSULTA MI CURRICULUM</h3>
+          <h4><a class="MAILTO" href="mailto:jonathan.gaallego@gmail.com?Subject=Interesado%20en%20el%20CV">CONTACTAR
+              POR
+              CORREO</a></h4>
+        </div>
+      </section>
+    </div>
+    <div class="div4">
+      <footer id="Footer1">
+        <section id="ContenidoFooter2">
+          <h7 id="fecha-hora"></h7>
+        </section>
+      </footer>
+    </div>
+  </div>
 </body>
+
 </html>
