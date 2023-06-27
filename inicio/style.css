@@ -790,7 +790,7 @@
 
     /* MEDIAQUERY PARA MOVILES MAS PEQUEÑOS */
 
-    @media (max-width: 424px) {
+    @media (max-width: 473px) {
 
       .site-logo {
         display: none;
@@ -851,7 +851,7 @@
       /* Portada */
 
       .Portada {
-        margin-top: -3em;
+        margin-top: 5em;
       }
 
       #Portada2 {
@@ -863,11 +863,10 @@
       }
 
       section.RedesSociales {
-        margin-top: 12%;
+        margin-top: 18%;
       }
 
       section.RedesSociales a {
-        display: flex;
         margin: 0 auto;
       }
 
@@ -955,5 +954,5 @@
         padding-top: 125px;
         padding-bottom: 50%;
         margin-top: 55%;
-      }
+      } 
     }
