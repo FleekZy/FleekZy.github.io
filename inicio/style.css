@@ -254,14 +254,14 @@
     /* PORTADA */
     .div2 {
       grid-area: 2 / 1 / 1 / 6;
-      margin-top: 160px;
+      margin-top: 300px;
       z-index: 1;
     }
 
     .Portada {
       text-align: center;
       color: #FFFFFF;
-      padding-top: 10px;
+      padding-top: 15px;
     }
 
     #Portada2 {
@@ -621,7 +621,7 @@
 
     /* MEDIAQUERY PARA MOVILES */
 
-    @media (min-width:424px) and (max-width: 991px) {
+    @media (max-width:424px) {
 
       .site-logo {
         display: none;
@@ -685,7 +685,7 @@
       /* PORTADA */
 
       .Portada {
-        margin-top: 20%;
+        margin-top: 22%;
       }
 
       #Portada2 {
@@ -851,7 +851,7 @@
       /* Portada */
 
       .Portada {
-        margin-top: 5em;
+        margin-top: -80px;
       }
 
       #Portada2 {
