@@ -1,5 +1,6 @@
 window.addEventListener('scroll', function() {
   let caja = document.getElementById('caja');
+  let caja1 = document.getElementById('caja1');
   let caja2 = document.getElementById('caja2');
   let caja3 = document.getElementById('caja3');
   let caja4 = document.getElementById('caja4');
@@ -13,6 +14,12 @@ window.addEventListener('scroll', function() {
     caja.classList.add('visible');
   } else {
     caja.classList.remove('visible');
+  }
+
+  if (caja1.getBoundingClientRect().top < screenSize) {
+    caja1.classList.add('visible');
+  } else {
+    caja1.classList.remove('visible');
   }
 
   if (caja2.getBoundingClientRect().top < screenSize) {
