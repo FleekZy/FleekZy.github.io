@@ -568,7 +568,6 @@
       background-size: 200% auto;
       color: #fff;
       background-clip: text;
-      text-fill-color: transparent;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       animation: textclip 3s linear infinite;
@@ -922,13 +921,14 @@
       }
 
       .caja {
-        width: 100%;
+        width: 60%;
         padding-left: 25px;
         padding-right: 25px;
       }
 
       .derecha {
         left: 0%;
+        width: 100%;
       }
 
       .izquierda {
