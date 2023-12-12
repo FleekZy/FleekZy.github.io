@@ -921,14 +921,13 @@
       }
 
       .caja {
-        width: 60%;
+        width: 100%;
         padding-left: 25px;
         padding-right: 25px;
       }
 
       .derecha {
         left: 0%;
-        width: 100%;
       }
 
       .izquierda {
