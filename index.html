@@ -1,158 +1,192 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <script src="https://kit.fontawesome.com/61e1fa152a.js" crossorigin="anonymous"></script>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#1f1d2e"/>
-  <link rel="stylesheet" href="inicio/style.css">
-  <link rel="stylesheet" href="inicio/iconos.css">
-  <link rel="shortcut icon" href="inicio/imagenes/Logo1.ico">
-  <script src="inicio/js/AnimacionScroll.js"></script>
-  <script src="inicio/js/MenuClick.js"></script>
-  <title>FleekZy | Web</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FleekZy — Jonathan · Administrador de Sistemas Informáticos</title>
+  <meta name="description" content="Portfolio de Jonathan (FleekZy), Administrador de Sistemas Informáticos especializado en redes, infraestructura y seguridad." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="contenedor">
-    <div class="div1">
-      <nav class="nav-bar" id="Nav1">
-        <div class="container">
-          <input type="checkbox" id="drop-down-cbox" />
-          <label for="drop-down-cbox">
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-          <a href="#">
-            <h1 class="site-logo">FleekZy</h1>
-          </a>
-          <ul class="main-nav" >
-            <li><a href="#" onclick="cerrarMenu()">INICIO</a></li>
-            <li><a href="#Seccion1" onclick="cerrarMenu()">SOBRE MÍ</a></li>
-            <li><a href="#Seccion2" onclick="cerrarMenu()">RESUMEN</a></li>
-            <li><a href="#Seccion3" onclick="cerrarMenu()">DETALLES</a></li>
-          </ul>
+  <div class="crt-overlay"></div>
+  <div class="ambient ambient-tr"></div>
+  <div class="ambient ambient-bl"></div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="nav-left">
+        <span class="brand">FLEEKZY_SYS_V3.0.1</span>
+        <span class="sep">//</span>
+        <div class="nav-links">
+          <a href="#inicio">INICIO</a>
+          <a href="#sobre-mi">SOBRE MÍ</a>
+          <a href="#resumen">RESUMEN</a>
+          <a href="#detalles">DETALLES</a>
         </div>
-      </nav>
+      </div>
+      <div class="nav-status">
+        <span class="dot"></span>
+        <span>SYSTEM_STABLE</span>
+      </div>
     </div>
-    <div class="div2">
-      <section class="Portada" class="">
-        <h2 class="logo">
-          <p><span><strong>HOLA, SOY JONATHAN</strong></span></p>
-        </h2>
-      </section>
-      <br>
-      <section id="Portada2">
-        <h3>ADMINISTRADOR DE SISTEMAS INFORMATICOS</h3>
-      </section>
-      <section class="RedesSociales">
-        <a class="Instagram" href="https://www.instagram.com/joooniii98" title="Instagram">
-          <i class="fab fa-instagram ImgRedes" alt="INSTAGRAM"></i>
-        </a>
-        <a class="Twitter" href="https://twitter.com/HastonPeque" title="Twitter">
-          <i class="fa-brands fa-x-twitter ImgRedes" alt="TWITTER"></i>
-        </a>
-      </section>
-    </div>
-    <div class="div3" >
-      <br>
-      <section class="SeccionSobreMi" id="Seccion1">
-        <h1 class="SobreMi"><strong>SOBRE MÍ</strong></h1>
+  </nav>
+
+  <main id="inicio" class="grid">
+
+    <!-- HERO -->
+    <section class="card hero col-8 boot">
+      <div class="badge-id">ID: 0x44F23</div>
+      <p class="prompt">[root@portfolio ~]# whoami</p>
+        <h1 class="hero-title">
+          <span class="line1">HOLA, SOY</span><br />
+          <span class="line2">JONATHAN</span><span class="cursor">_</span>
+        </h1>
+      <p class="hero-sub">
+        Administrador de Sistemas Informáticos especializado en arquitectura de red,
+        mantenimiento y seguridad operativa.
+      </p>
+      <div class="tags">
+        <span class="tag">LINUX</span>
+        <span class="tag">WINDOWS SERVER</span>
+        <span class="tag">REDES</span>
+        <span class="tag">CIBERSEGURIDAD</span>
+      </div>
+    </section>
+
+    <!-- STATUS -->
+    <section class="card status col-4 boot delay-1">
+      <div class="status-head">
+        <span class="label">SKILLS</span>
+        <span class="value">ONLINE</span>
+      </div>
+      <div class="bars">
+        <div class="bar-item">
+          <div class="bar-row"><span>NINJAONE</span><span class="value">69%</span></div>
+          <div class="bar"><div class="bar-fill" style="width:69%"></div></div>
+        </div>
+        <div class="bar-item">
+          <div class="bar-row"><span>SEGURIDAD</span><span class="value">94%</span></div>
+          <div class="bar"><div class="bar-fill" style="width:94%"></div></div>
+        </div>
+        <div class="bar-item">
+          <div class="bar-row"><span>REDES</span><span class="value">90%</span></div>
+          <div class="bar"><div class="bar-fill" style="width:100%"></div></div>
+        </div>
+      </div>
+      <div class="status-meta">
+        <div class="bar-row"><span>LOCATION</span><span class="value">Amurrio, ES</span></div>
+        <div class="bar-row"><span>UPTIME</span><span class="value">111 DAYS</span></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="sobre-mi" class="card col-4 boot delay-2">
+      <h3 class="card-label"><span class="dot"></span>Sobre mí</h3>
+      <div class="prose">
+        <p>
+          Soy un Administrador de Sistemas con experiencia en gestión de redes,
+          mantenimiento y administración de sistemas informáticos. He trabajado con
+          equipos de desarrollo bajo metodología Scrum,
+          destacando por mi capacidad para resolver problemas y mi atención al detalle.
+        </p>
+        <p>
+          Me apasiona mantenerme actualizado en las últimas tendencias y tecnologías,
+          implementando soluciones eficientes para cualquier desafío.
+        </p>
+        <p class="quote">&gt; Si buscas a alguien que ofrezca soluciones innovadoras, contacta conmigo.</p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="resumen" class="card col-7 boot delay-3">
+      <h3 class="card-label"><span class="dot"></span>work_history.log</h3>
+      <div class="timeline">
+        <div class="row">
+          <div class="row-date">11/12/2023 — ACTUALIDAD <span class="live"><span class="dot live-dot"></span>LIVE</span></div>
+          <div class="row-body">
+            <div class="row-company">DEGUISA</div>
+            <div class="row-role">Técnico Informático</div>
+            <div class="row-desc">Administración y mantenimiento de sistemas informáticos.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-date">24/09/2021 — 23/12/2021</div>
+          <div class="row-body">
+            <div class="row-company">SERINFOR</div>
+            <div class="row-role">Asistente de Sistemas Informáticos</div>
+            <div class="row-desc">Gestión de redes, mantenimiento y administración de sistemas.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-date">14/09/2018 — 18/12/2018</div>
+          <div class="row-body">
+            <div class="row-company">PC BASAURI</div>
+            <div class="row-role">Asistente de Sistemas Informáticos</div>
+            <div class="row-desc">Mantenimiento, administración y atención al cliente.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-date">16/04/2018 — 30/05/2018</div>
+          <div class="row-body">
+            <div class="row-company">PC BASAURI</div>
+            <div class="row-role">Asistente de Sistemas Informáticos</div>
+            <div class="row-desc">Mantenimiento, administración y atención al cliente.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-date">06/03/2018 — 13/04/2018</div>
+          <div class="row-body">
+            <div class="row-company">+REPAIR</div>
+            <div class="row-role">Asistente de Sistemas Apple</div>
+            <div class="row-desc">Mantenimiento, administración y atención al cliente.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="card col-5 boot delay-4">
+      <h3 class="card-label"><span class="dot"></span>Formación</h3>
+      <div class="edu">
+        <div class="edu-item">
+          <div class="edu-date">2019 — 2021</div>
+          <div class="edu-title">Grado Superior ASIR</div>
+          <div class="edu-place">CIFP Txurdinaga · Bilbao</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-date">2016 — 2018</div>
+          <div class="edu-title">Grado Medio SMR</div>
+          <div class="edu-place">CIFP Txurdinaga · Bilbao</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider">╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌</div>
+
+    <!-- CONTACT -->
+    <section id="detalles" class="cta boot delay-5">
+      <div class="cta-tag">CONN_REQUEST</div>
+      <div class="cta-inner">
         <div>
-          <div class="contenido-SobreMi">
-            <!--<h2 class="NombreSobreMi">JONATHAN GALLEGO</h2>-->
-            <p class="TextoSobreMi">Soy un Administrador de Sistemas altamente capacitado con experiencia en la gestión de redes, mantenimiento y administración de sistemas informáticos. He trabajado con equipos de desarrollo utilizando el método Scrum, lo que me ha permitido ser un excelente colaborador en equipo, destacando por mi capacidad para solucionar problemas y mi atención al detalle.</p>
-            <p class="TextoSobreMi"> Me apasiona mantenerme actualizado en las últimas tendencias y tecnologías, lo que me permite implementar soluciones eficientes y efectivas para cualquier desafío en el que me encuentre trabajando.</p>
-            <p class="TextoSobreMi">Si estás buscando a alguien que pueda ofrecer soluciones innovadoras y de calidad, no dudes en contactar conmigo.</p>
-            <img class="AvatarSobreMi" src="inicio/imagenes/Avatar.jpg" alt="avatar" title="Avatar">
-          </div>
+          <p class="cta-prompt">&gt; init connection.sh</p>
+          <h3 class="cta-title">ESTABLECER CONEXIÓN</h3>
+          <p class="cta-sub">Para más detalles consulta mi currículum o contacta directamente por correo.</p>
         </div>
-      </section>
-      <section class="SeccionExperienciaLaboral" id="Seccion2">
-        <h1 id="Exp1"><strong>EXPERIENCIA LABORAL</strong></h1>
-        <div class="linea">
-        <div class="caja derecha" id="caja">
-          <div class="contenido">
-            <h2 class="Fecha">11/12/2023 - ACTUALIDAD</h2>
-            <p>Tecnico Informático | DEGUISA</p>
-            <p>Administración y Mantenimiento de Sistemas informáticos</p>
-          </div>
-        </div>
+        <a class="cta-btn" href="mailto:jonathan.gaallego@gmail.com?Subject=Interesado%20en%20el%20CV">
+          CONTACTAR_POR_CORREO
+          <span class="arrow">-&gt;</span>
+        </a>
+      </div>
+    </section>
+  </main>
 
-          <div class="caja izquierda" id="caja1">
-            <div class="contenido">
-              <h2 class="Fecha">24/09/2021 - 23/12/2021</h2>
-              <p>Asistente de Sistemas Informáticos | SERINFOR</p>
-              <p>Gestión de redes, Mantenimiento y Administración de Sistemas informáticos</p>
-            </div>
-          </div>
-          <div class="caja derecha" id="caja2">
-            <div class="contenido">
-              <h2 class="Fecha">14/09/2018 - 18/12/2018</h2>
-              <p>Asistente de Sistemas Informáticos | PC BASAURI</p>
-              <p>Mantenimiento y Administración de Sistemas informáticos y Atención al cliente</p>
-            </div>
-          </div>
-        </div>
-        <div class="linea">
-          <div class="caja izquierda "id="caja3">
-            <div class="contenido">
-              <h2 class="Fecha">16/04/2018 - 30/05/2018</h2>
-              <p>Asistente de Sistemas Informáticos | PC BASAURI</p>
-              <p>Mantenimiento y Administración de Sistemas informáticos y Atención al cliente</p>
-            </div>
-          </div>
-        </div>
-        <div class="linea">
-          <div class="caja derecha " id="caja4">
-            <div class="contenido">
-              <h2 class="Fecha">06/03/2018 - 13/04/2018</h2>
-              <p>Asistente de Sistemas Informáticos Apple | +REPAIR</p>
-              <p>Mantenimiento y Administración de Sistemas informáticos y Atención al cliente</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="SeccionFormacion">
-        <h1 id="Form1"><strong>FORMACIÓN</strong></h1>
-        <div class="linea">
-          <div class="caja izquierda" id="caja5">
-            <div class="contenido">
-              <h2 class="Fecha">08/09/2019 - 23/12/2021</h2>
-              <p>Grado Superior de Administración de Sistemas Informáticos en Red</p>
-              <p>CIFP Txurdinaga BILBAO</p>
-            </div>
-          </div>
-        </div>
-        <div class="linea">
-          <div class="caja derecha" id="caja6">
-            <div class="contenido">
-              <h2 class="Fecha">08/09/2016 - 18/12/2018</h2>
-              <p>Grado Medio de Sistemas Micro-Informáticos y redes</p>
-              <p>CIFP Txurdinaga BILBAO</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="SeccionDetalles">
-        <div id="Seccion3">
-          <h3>PARA MAS DETALLES CONSULTA MI CURRICULUM</h3>
-          <h4><a class="MAILTO" href="mailto:jonathan.gaallego@gmail.com?Subject=Interesado%20en%20el%20CV">CONTACTAR
-              POR
-              CORREO</a></h4>
-        </div>
-      </section>
-    </div>
-    <div class="div4">
-      <footer id="Footer1">
-        <section id="ContenidoFooter2">
-          <h7>Created with ❤️ by Jonathan</h7>
-        </section>
-      </footer>
-    </div>
-  </div>
+  <footer class="foot">
+    <span>© 2026 JONATHAN "FLEEKZY" — Created with ♥</span>
+    <span>END_OF_TRANSMISSION ●</span>
+  </footer>
 </body>
-
 </html>
