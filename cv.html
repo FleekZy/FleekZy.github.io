@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV — Jonathan “FleekZy” · Administrador de Sistemas Informáticos</title>
+  <meta name="description" content="Currículum de Jonathan (FleekZy), Administrador de Sistemas Informáticos especializado en redes, mantenimiento y seguridad.">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/cv.css">
+  <script src="assets/js/cv.js" defer></script>
+</head>
+<body>
+  <!-- Iconos -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="c-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/></g></symbol>
+    <symbol id="c-web" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></g></symbol>
+    <symbol id="c-github" viewBox="0 0 16 16"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></symbol>
+    <symbol id="c-instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></g></symbol>
+    <symbol id="c-pin"viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></g></symbol>
+    <symbol id="c-download" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12M7 10l5 5 5-5M5 21h14"/></symbol>
+    <symbol id="c-print" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></g></symbol>
+    <symbol id="c-back" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+  </svg>
+
+  <!-- Barra superior (solo en pantalla) -->
+  <header class="toolbar">
+    <a class="toolbar__back" href="index.html">
+      <svg class="ico"><use href="#c-back"/></svg>
+      <span>Volver a la web</span>
+    </a>
+    <div class="toolbar__actions">
+      <button class="tbtn" type="button" data-print>
+        <svg class="ico"><use href="#c-print"/></svg><span>Imprimir</span>
+      </button>
+      <a class="tbtn tbtn--primary" href="assets/cv/CV-Jonathan-FleekZy.pdf" download>
+        <svg class="ico"><use href="#c-download"/></svg><span>Descargar PDF</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="stage">
+    <div class="sheet-wrap" data-sheet-wrap>
+      <article class="sheet" data-sheet aria-label="Currículum de Jonathan">
+
+        <!-- ===== Columna lateral ===== -->
+        <aside class="side">
+          <div class="side__top">
+            <img class="avatar" src="assets/img/logo.jpg" alt="Avatar de FleekZy" width="120" height="120">
+            <p class="alias">Jonathan Gallego</p>
+          </div>
+
+          <section class="block">
+            <h2 class="block__title">Contacto</h2>
+            <ul class="contact">
+              <li><svg class="ico"><use href="#c-mail"/></svg><a href="mailto:jonathan.gaallego@gmail.com">jonathan.gaallego@gmail.com</a></li>
+              <li><svg class="ico"><use href="#c-web"/></svg><a href="https://fleekzy.github.io/">fleekzy.github.io</a></li>
+              <li><svg class="ico"><use href="#c-github"/></svg><a href="https://github.com/fleekzy">github.com/fleekzy</a></li>
+              <li><svg class="ico"><use href="#c-instagram"/></svg><a href="https://www.instagram.com/joooniii98">instagram.com/joooniii98</a></li>
+              <li><svg class="ico"><use href="#c-pin"/></svg><span>Amurrio, España</span></li>
+            </ul>
+          </section>
+
+          <section class="block">
+            <h2 class="block__title">Skills</h2>
+            <ul class="skills">
+              <li>
+                <div class="skills__row"><span>Seguridad</span><span>82%</span></div>
+                <div class="skills__bar"><span style="width:82%"></span></div>
+              </li>
+              <li>
+                <div class="skills__row"><span>Redes</span><span>70%</span></div>
+                <div class="skills__bar"><span style="width:70%"></span></div>
+              </li>
+              <li>
+                <div class="skills__row"><span>NinjaOne</span><span>69%</span></div>
+                <div class="skills__bar"><span style="width:69%"></span></div>
+              </li>
+              <li>
+                <div class="skills__row"><span>IA Generativa</span><span>60%</span></div>
+                <div class="skills__bar"><span style="width:60%"></span></div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="block">
+            <h2 class="block__title">Competencias</h2>
+            <ul class="chips">
+              <li>Linux</li>
+              <li>Windows Server</li>
+              <li>Redes</li>
+              <li>Ciberseguridad</li>
+              <li>NinjaOne</li>
+              <li>Ticketing</li>
+            </ul>
+          </section>
+
+          <section class="block">
+            <h2 class="block__title">En cifras</h2>
+            <ul class="figures">
+              <li><strong>2016</strong><span>En IT desde</span></li>
+              <li><strong>5</strong><span>Experiencias</span></li>
+              <li><strong>2</strong><span>Titulaciones</span></li>
+              <li><strong>ASIR</strong><span>Titulación</span></li>
+            </ul>
+          </section>
+
+          <div class="qr">
+            <svg class="qr__code" viewBox="-2 -2 29 29" shape-rendering="crispEdges" role="img" aria-label="Código QR a fleekzy.github.io">
+              <rect x="-2" y="-2" width="29" height="29" fill="#ffffff"/>
+              <path fill="#111111" d="M0 0h7v1h-7zM10 0h6v1h-6zM18 0h7v1h-7zM0 1h1v1h-1zM6 1h1v1h-1zM8 1h2v1h-2zM11 1h3v1h-3zM15 1h2v1h-2zM18 1h1v1h-1zM24 1h1v1h-1zM0 2h1v1h-1zM2 2h3v1h-3zM6 2h1v1h-1zM9 2h2v1h-2zM12 2h1v1h-1zM15 2h1v1h-1zM18 2h1v1h-1zM20 2h3v1h-3zM24 2h1v1h-1zM0 3h1v1h-1zM2 3h3v1h-3zM6 3h1v1h-1zM11 3h2v1h-2zM14 3h2v1h-2zM18 3h1v1h-1zM20 3h3v1h-3zM24 3h1v1h-1zM0 4h1v1h-1zM2 4h3v1h-3zM6 4h1v1h-1zM8 4h2v1h-2zM12 4h1v1h-1zM15 4h1v1h-1zM18 4h1v1h-1zM20 4h3v1h-3zM24 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM10 5h2v1h-2zM13 5h3v1h-3zM18 5h1v1h-1zM24 5h1v1h-1zM0 6h7v1h-7zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h7v1h-7zM9 7h3v1h-3zM13 7h1v1h-1zM16 7h1v1h-1zM0 8h1v1h-1zM2 8h1v1h-1zM4 8h1v1h-1zM6 8h1v1h-1zM9 8h1v1h-1zM11 8h1v1h-1zM13 8h1v1h-1zM15 8h2v1h-2zM20 8h1v1h-1zM23 8h1v1h-1zM0 9h1v1h-1zM2 9h1v1h-1zM4 9h2v1h-2zM7 9h3v1h-3zM17 9h2v1h-2zM24 9h1v1h-1zM0 10h1v1h-1zM2 10h3v1h-3zM6 10h1v1h-1zM10 10h3v1h-3zM14 10h1v1h-1zM17 10h1v1h-1zM22 10h3v1h-3zM0 11h2v1h-2zM8 11h4v1h-4zM13 11h1v1h-1zM15 11h1v1h-1zM17 11h1v1h-1zM23 11h1v1h-1zM0 12h1v1h-1zM2 12h2v1h-2zM6 12h4v1h-4zM12 12h2v1h-2zM15 12h1v1h-1zM17 12h2v1h-2zM21 12h1v1h-1zM23 12h2v1h-2zM2 13h1v1h-1zM9 13h1v1h-1zM11 13h1v1h-1zM13 13h2v1h-2zM16 13h3v1h-3zM21 13h1v1h-1zM24 13h1v1h-1zM0 14h1v1h-1zM2 14h1v1h-1zM6 14h1v1h-1zM9 14h1v1h-1zM16 14h4v1h-4zM22 14h3v1h-3zM1 15h1v1h-1zM4 15h2v1h-2zM9 15h1v1h-1zM12 15h3v1h-3zM20 15h1v1h-1zM23 15h1v1h-1zM0 16h1v1h-1zM5 16h2v1h-2zM8 16h1v1h-1zM11 16h3v1h-3zM15 16h7v1h-7zM8 17h3v1h-3zM13 17h1v1h-1zM16 17h1v1h-1zM20 17h2v1h-2zM23 17h2v1h-2zM0 18h7v1h-7zM9 18h1v1h-1zM13 18h4v1h-4zM18 18h1v1h-1zM20 18h2v1h-2zM23 18h2v1h-2zM0 19h1v1h-1zM6 19h1v1h-1zM12 19h2v1h-2zM16 19h1v1h-1zM20 19h2v1h-2zM23 19h2v1h-2zM0 20h1v1h-1zM2 20h3v1h-3zM6 20h1v1h-1zM8 20h1v1h-1zM11 20h4v1h-4zM16 20h6v1h-6zM0 21h1v1h-1zM2 21h3v1h-3zM6 21h1v1h-1zM9 21h1v1h-1zM12 21h1v1h-1zM16 21h1v1h-1zM19 21h4v1h-4zM0 22h1v1h-1zM2 22h3v1h-3zM6 22h1v1h-1zM8 22h1v1h-1zM10 22h1v1h-1zM13 22h1v1h-1zM20 22h1v1h-1zM24 22h1v1h-1zM0 23h1v1h-1zM6 23h1v1h-1zM11 23h1v1h-1zM13 23h1v1h-1zM15 23h2v1h-2zM20 23h2v1h-2zM23 23h1v1h-1zM0 24h7v1h-7zM8 24h1v1h-1zM10 24h4v1h-4zM15 24h5v1h-5zM23 24h2v1h-2z"/>
+            </svg>
+            <p class="qr__text"><strong>Mi web</strong>Escanea para ver mi portfolio</p>
+          </div>
+        </aside>
+
+        <!-- ===== Columna principal ===== -->
+        <div class="main">
+          <header class="head">
+            <p class="head__prompt">[root@portfolio ~]# whoami</p>
+            <h1 class="head__name">Jonathan<span class="head__cursor">_</span></h1>
+            <p class="head__role">Administrador de Sistemas Informáticos</p>
+            <p class="head__tagline">Especializado en arquitectura de red, mantenimiento y seguridad operativa.</p>
+          </header>
+
+          <section class="sec">
+            <h2 class="sec__title"><span>01</span>Sobre mí</h2>
+            <div class="about">
+              <p>
+                Soy un Administrador de Sistemas con experiencia en gestión de redes, mantenimiento
+                y administración de sistemas informáticos. He trabajado con equipos de desarrollo
+                bajo metodología Scrum, destacando por mi capacidad para resolver problemas y mi
+                atención al detalle.
+              </p>
+              <p>
+                Me apasiona mantenerme actualizado en las últimas tendencias y tecnologías,
+                implementando soluciones eficientes para cualquier desafío.
+              </p>
+              <blockquote class="about__quote">
+                Si buscas a alguien que ofrezca soluciones innovadoras, contacta conmigo.
+              </blockquote>
+            </div>
+          </section>
+
+          <section class="sec">
+            <h2 class="sec__title"><span>02</span>Experiencia</h2>
+            <ol class="jobs">
+              <li class="job job--current">
+                <div class="job__top">
+                  <h3 class="job__company">DEGUISA</h3>
+                  <p class="job__date"><span class="job__now">Actual</span>11/12/2023 — Actualidad</p>
+                </div>
+                <p class="job__role">Técnico Informático</p>
+                <p class="job__desc">Administración y mantenimiento de sistemas informáticos.</p>
+              </li>
+              <li class="job">
+                <div class="job__top">
+                  <h3 class="job__company">SERINFOR</h3>
+                  <p class="job__date">24/09/2021 — 23/12/2021</p>
+                </div>
+                <p class="job__role">Asistente de Sistemas Informáticos</p>
+                <p class="job__desc">Gestión de redes, mantenimiento y administración de sistemas.</p>
+              </li>
+              <li class="job">
+                <div class="job__top">
+                  <h3 class="job__company">PC BASAURI</h3>
+                  <p class="job__date">14/09/2018 — 18/12/2018</p>
+                </div>
+                <p class="job__role">Asistente de Sistemas Informáticos</p>
+                <p class="job__desc">Mantenimiento, administración y atención al cliente.</p>
+              </li>
+              <li class="job">
+                <div class="job__top">
+                  <h3 class="job__company">PC BASAURI</h3>
+                  <p class="job__date">16/04/2018 — 30/05/2018</p>
+                </div>
+                <p class="job__role">Asistente de Sistemas Informáticos</p>
+                <p class="job__desc">Mantenimiento, administración y atención al cliente.</p>
+              </li>
+              <li class="job">
+                <div class="job__top">
+                  <h3 class="job__company">+REPAIR</h3>
+                  <p class="job__date">06/03/2018 — 13/04/2018</p>
+                </div>
+                <p class="job__role">Asistente de Sistemas Apple</p>
+                <p class="job__desc">Mantenimiento, administración y atención al cliente.</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="sec">
+            <h2 class="sec__title"><span>03</span>Formación</h2>
+            <div class="edu">
+              <article class="edu__item">
+                <p class="edu__date">2019 — 2021</p>
+                <h3 class="edu__title">Grado Superior ASIR</h3>
+                <p class="edu__desc">Administración de Sistemas Informáticos en Red</p>
+                <p class="edu__place">CIFP Txurdinaga · Bilbao</p>
+              </article>
+              <article class="edu__item">
+                <p class="edu__date">2016 — 2018</p>
+                <h3 class="edu__title">Grado Medio SMR</h3>
+                <p class="edu__desc">Sistemas Microinformáticos y Redes</p>
+                <p class="edu__place">CIFP Txurdinaga · Bilbao</p>
+              </article>
+            </div>
+          </section>
+        </div>
+      </article>
+    </div>
+  </main>
+</body>
+</html>
